@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* .nav {
+  border: 12px solid lightpink;
+  background-color: pink;
+  text-align: center;
+  padding-bottom: 3%;
+} */
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+body {
+  background-image: url('https://image.shutterstock.com/z/stock-vector-illustration-of-indian-goddess-lakshmi-and-lord-ganesha-on-holy-lotus-giving-blessing-on-715861132.jpg');
+  background-size: cover;
+}
+
+
+
+.transaction-li{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
