@@ -1,0 +1,45 @@
+nav {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    height: 120px;
+}
+
+.app_name {
+    font-size: 48px;
+    margin-top: 20px;
+    color: white
+}
+
+.app_name:hover {
+    color:gold
+}
+
+
+/* .homePage {
+ hover:
+} */
+
+
+button, .submit {
+height: 50px;
+width:150px;
+font-size: 15px;
+border-radius: 10px;
+
+}
+
+button:hover, .submit:hover{
+    background-color: yellow;
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none ;
+}

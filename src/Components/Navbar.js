@@ -1,17 +1,18 @@
 import { Link } from 'react-router-dom';
+import "./Nav.css"
 
 function Navbar() {
   return (
     <nav className="nav">
       <h1>🕉 Vishnupriya Budget App 🕉</h1>
       <Link to="/">
-        <div>Home Page</div>
+        <button className="homePage">Home Page</button>
       </Link>
       <Link to="/transactions">
-        <div>Show Transactions</div>
+        <button className="showTransactions">Show Transactions</button>
       </Link>
       <Link to="/transactions/new">
-        <div>New Transaction</div>
+        <button className="newTransactions">New Transaction</button>
       </Link>
     </nav>
   );

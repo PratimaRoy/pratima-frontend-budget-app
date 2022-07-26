@@ -58,8 +58,17 @@
 }
 
 body {
-  background-image: url('https://image.shutterstock.com/z/stock-vector-illustration-of-indian-goddess-lakshmi-and-lord-ganesha-on-holy-lotus-giving-blessing-on-715861132.jpg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.264), rgba(255, 255, 255, 0.86)), url('https://i.pinimg.com/originals/44/e5/70/44e570097ddbb77ce25d2b56cfea66b0.gif');
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 20px;
+  max-width: 1200px;
+
 }
 
 

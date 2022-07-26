@@ -12,7 +12,7 @@ function Transactions() {
       .then((res) => setTransactions(res.data))
       .catch((error) => console.log(error));
   }, []);
-
+console.log(API, "API")
   const transactionsList = transactions.map((transaction, index) => {
     return (
       <li className="transaction-li" key={index}>

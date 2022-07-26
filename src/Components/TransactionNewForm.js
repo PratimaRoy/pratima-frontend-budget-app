@@ -46,7 +46,7 @@ function TransactionNewForm() {
           required
           placeholder="paycheck, groceries, etc..."
         />
-        <br />
+        <br /> <br />
         <label htmlFor="amount">Amount: </label>
         <input
           id="amount"
@@ -56,18 +56,18 @@ function TransactionNewForm() {
           onChange={handleTextChange}
           placeholder="65, -100, etc..."
         />
-        <br />
+        <br /> <br />
         <label htmlFor="date">Date: </label>
         <input
           id="date"
-          type="text"
+          type="date"
           name="date"
           value={transaction.date}
           onChange={handleTextChange}
           required
           placeholder="EX: 7/28/2022"
         />
-        <br />
+        <br /> <br />
         <label htmlFor="from">From: </label>
         <input
           id="from"
@@ -77,7 +77,7 @@ function TransactionNewForm() {
           required
           placeholder="work, bank, etc..."
         />
-        <br />
+        <br /> <br />
         <label htmlFor="category">Category: </label>
         <input
           id="category"
@@ -88,7 +88,7 @@ function TransactionNewForm() {
           onChange={handleTextChange}
           required
         />
-        <br />
+        <br /> <br />
         <label htmlFor="type">Type: </label>
         <input
           id="type"
@@ -99,9 +99,9 @@ function TransactionNewForm() {
           onChange={handleTextChange}
           required
         />
-        <br />
+        <br /> <br />
 
-        <input type="submit" />
+        <input className="submit" type="submit" />
       </form>
       <Link to={`/transactions`}>
         <button>Cancel</button>
